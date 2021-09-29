@@ -1,6 +1,10 @@
-const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
 
+
+
+
+const { Client, Intents } = require('discord.js');
+const { guildId } = require('./config.json');
+const dotenv = require('dotenv').config();
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
@@ -9,4 +13,4 @@ client.once('ready', () => {
 });
 
 
-client.login(token);
+client.login(process.env.TOKEN);

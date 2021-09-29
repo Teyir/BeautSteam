@@ -2,7 +2,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { Client, Intents } = require('discord.js');
+const { Client, Intents, MessageEmbed} = require('discord.js');
 const { clientId, guildId } = require('./config.json');
 
 //Token (.env)
@@ -23,12 +23,29 @@ client.on('interactionCreate', async interaction => {
 
     const { commandName } = interaction;
 
+    //Embed Stats
+    const embedStats = new MessageEmbed()
+        .setColor('#2a475e')
+        .setTitle('Informations du joueur PSEUDO')
+        .setURL('https://steamcommunity.com/profiles/76561198141578851')
+        .setAuthor('PSEUDO', 'https://avatars.githubusercontent.com/u/60007549?s=40&v=4', 'https://steamcommunity.com/profiles/7656119814157885')
+        .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png')
+        .addFields(
+            { name: 'NOM JEUX', value: 'HEURES DE JEUX' },
+            { name: 'NOM JEUX', value: 'HEURES DE JEUX' },
+            { name: 'NOM JEUX', value: 'HEURES DE JEUX' },
+            { name: 'NOM JEUX', value: 'HEURES DE JEUX' },
+            { name: 'NOM JEUX', value: 'HEURES DE JEUX' },
+        )
+        .setTimestamp()
+        .setFooter('Généré automatiquement pour le joueur PSEUDO', 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png');
+
     if (commandName === 'pingtxr') {
         await interaction.reply('Pong!');
     } else if (commandName === 'servertxr') {
         await interaction.reply('Server info.');
     } else if (commandName === 'usertxr') {
-        await interaction.reply('User info.');
+        await interaction.reply({ embeds: [embedStats] });
     }
 });
 

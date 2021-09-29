@@ -1,6 +1,12 @@
 //Import
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
 const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
+const { clientId, guildId } = require('./config.json');
+
+//Token (.env)
+const dotenv = require('dotenv').config();
 
 //Déclaration du client (bot)
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -11,4 +17,4 @@ client.once('ready', () => {
 });
 
 //Intégration du token pour la connexion du bot
-client.login(token);
+client.login(process.env.TOKEN);

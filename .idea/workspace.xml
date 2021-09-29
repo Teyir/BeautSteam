@@ -19,8 +19,116 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6a7f3f-8eee-4191-ae5f-6a72d868e948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="cc6a7f3f-8eee-4191-ae5f-6a72d868e948" name="Default Changelist" comment="[IMPROVE] comments">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/formatters.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/gateway/v9.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/responses.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/responses.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/responses.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/responses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/auditLog.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/auditLog.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/auditLog.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/auditLog.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/interactions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/oauth2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/oauth2.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/oauth2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/oauth2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/user.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/responses.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/responses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/auditLog.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/auditLog.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/auditLog.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/auditLog.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/interactions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/oauth2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/oauth2.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/oauth2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/oauth2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/user.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/interactions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/interactions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/interactions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/interactions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/interactions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/interactions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/interactions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/interactions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/v8.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/v8.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/v9.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/v9.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <list id="569f72f4-0d1e-4a16-973c-58436d1e66e9" name="gitignore" comment="">
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +163,57 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cc6a7f3f-8eee-4191-ae5f-6a72d868e948" name="Default Changelist" comment="" />
+      <changelist id="569f72f4-0d1e-4a16-973c-58436d1e66e9" name="gitignore" comment="" />
       <created>1632899673289</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632899673289</updated>
       <workItem from="1632899674382" duration="1603000" />
-      <workItem from="1632902938115" duration="171000" />
+      <workItem from="1632902938115" duration="1737000" />
     </task>
+    <task id="LOCAL-00001" summary="[INIT] init project">
+      <created>1632903142616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903142616</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[INIT] init project">
+      <created>1632903253468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903253468</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[IMPROVE] .gitignore">
+      <created>1632903426273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903426273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[TEST] gitignore">
+      <created>1632903513884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903513884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[IMPROVE] comments">
+      <created>1632903942176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903942176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -79,10 +227,45 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[INIT] init project" />
+    <MESSAGE value="[IMPROVE] .gitignore" />
+    <MESSAGE value="[TEST] gitignore" />
+    <MESSAGE value="[IMPROVE] comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="[IMPROVE] comments" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1632899744904">
+    <state x="542" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632904257002">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1632899744904" />
+    <state x="542" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1632904257002" />
+    <state x="407" y="169" key="MultipleFileMergeDialog" timestamp="1632903530142">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="407" y="169" key="MultipleFileMergeDialog/0.0.1536.816@0.0.1536.816" timestamp="1632903530142" />
+    <state x="593" y="110" key="RollbackChangesDialog" timestamp="1632904269373">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="593" y="110" key="RollbackChangesDialog/0.0.1536.816@0.0.1536.816" timestamp="1632904269373" />
+    <state x="618" y="321" key="VCS.ChangelistChooser" timestamp="1632903492536">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="618" y="321" key="VCS.ChangelistChooser/0.0.1536.816@0.0.1536.816" timestamp="1632903492536" />
+    <state x="657" y="322" key="VCS.EditChangelistDialog" timestamp="1632903699707">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="657" y="322" key="VCS.EditChangelistDialog/0.0.1536.816@0.0.1536.816" timestamp="1632903699707" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1632903943915">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1632903943915" />
+    <state x="615" y="142" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1632904135009">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="615" y="142" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.816@0.0.1536.816" timestamp="1632904135009" />
+    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632903905710">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1632903905710" />
   </component>
 </project>

@@ -4,7 +4,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { Client, Intents, MessageEmbed} = require('discord.js');
 const { clientId, guildId } = require('./config.json');
-
+const { MessageActionRow, MessageButton, MessageSelectMenu  } = require('discord.js');
 //Token (.env)
 const dotenv = require('dotenv').config();
 
@@ -40,12 +40,24 @@ client.on('interactionCreate', async interaction => {
         .setTimestamp()
         .setFooter('Généré automatiquement pour le joueur PSEUDO', 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png');
 
-    if (commandName === 'pingtxr') {
-        await interaction.reply('Pong!');
-    } else if (commandName === 'servertxr') {
-        await interaction.reply('Server info.');
-    } else if (commandName === 'usertxr') {
+
+
+
+
+    if (commandName === 'stats') {
+        //Bouton link profile
+        const btnProfile = new MessageActionRow()
+            .addComponents(
+                new MessageButton()
+                    .setURL('https://steamcommunity.com/profiles/76561198141578851')
+                    .setLabel('Profile du joueur')
+                    .setStyle('LINK'),
+            );
+        await interaction.reply({ embeds: [embedStats], components: [btnProfile] });
+    } else if (commandName === 'statsp') {
         await interaction.reply({ embeds: [embedStats] });
+    } else if (commandName === 'testargs'){
+
     }
 });
 

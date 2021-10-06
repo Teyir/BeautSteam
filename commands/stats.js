@@ -1,6 +1,15 @@
 //Command embed ( test )
 exports.run = (client, message, args, MessageEmbed) => {
 
+
+
+    let gamesList = parseInt(args[0]);
+
+        for (let i = 1; i < gamesList+1; i++){
+            message.channel.send("Jeux numéro "+ i);
+        }
+
+
     const embed = {
         color: "#2a475e",
         title: 'Informations du joueur PSEUDO',

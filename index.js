@@ -7,6 +7,7 @@ const config = require("./config.json");
 //Config
 client.config = config;
 const dotenv = require('dotenv').config();
+const guild = config.guildId;
 
 //Log de la connexion du bot
 client.once('ready', () => {

@@ -2,12 +2,28 @@
 exports.run = (client, message, args, MessageEmbed) => {
 
 
+    let obj = ({
+        fields: [
+            {
+                name: "PSEUDO",
+                value: 'BLA BLA BLA'
+            },
+        ]
+    });
+
+
+    console.log(obj)
+
 
     let gamesList = parseInt(args[0]);
 
         for (let i = 1; i < gamesList+1; i++){
             message.channel.send("Jeux numéro "+ i);
+
         }
+
+
+
 
 
     const embed = {
@@ -23,22 +39,8 @@ exports.run = (client, message, args, MessageEmbed) => {
             url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png',
         },
         fields: [
-            {
-                name: 'NOM JEUX',
-                value: 'HEURES DE JEUX',
-            },
-            {
-                name: 'NOM JEUX',
-                value: 'HEURES DE JEUX',
-            },
-            {
-                name: 'NOM JEUX',
-                value: 'HEURES DE JEUX',
-            },
-            {
-                name: 'NOM JEUX',
-                value: 'HEURES DE JEUX',
-            },
+
+
             {
                 name: 'NOM JEUX',
                 value: 'HEURES DE JEUX',

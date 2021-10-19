@@ -10,7 +10,7 @@ const dotenv = require('dotenv').config();
 
 //Log de la connexion du bot
 client.once('ready', () => {
-    client.user.setActivity("tes morts", {type: "LISTENING"})
+    client.user.setActivity("ton pipou <3", {type: "WATCHING"})
     console.log('Bot connecté !');
 });
 

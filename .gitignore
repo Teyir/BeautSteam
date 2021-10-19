@@ -1,0 +1,7 @@
+#Fichier de configuration
+.env
+
+#Ide conf
+.idea/
+#On tej le node module
+/node_modules/

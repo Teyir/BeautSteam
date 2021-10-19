@@ -8,12 +8,21 @@ const config = require("./config.json");
 client.config = config;
 const dotenv = require('dotenv').config();
 const guild = config.guildId;
+//Logs
+var { insertLogBot } = require('./utils/logsBot.js');
+
+
+
 
 //Log de la connexion du bot
 client.once('ready', () => {
+    client.user.setActivity("avec du JS", { type: "PLAYING"})
     console.log('Bot connecté !');
+    //Insertion log
+    insertLogBot("ready");
 });
 
+//Cette fonction permet de récupérer tous les fichiers dans le dossier events
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
@@ -25,6 +34,8 @@ fs.readdir("./events/", (err, files) => {
 
 client.commands = new Discord.Collection();
 
+//Cette fonction permet de récupérer toutes les commandes présentes dans le dossier commandes
+//Les commandes sont automatiquement chargés
 fs.readdir("./commands/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
@@ -36,4 +47,36 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
+
+//Inutile mais tranquille c'est sympatoche
+client.on("message", (message) => {
+    if(message.content === "uesh") {
+        message.channel.send("Alors");
+    }
+    if(message.content === "pique") {
+        message.channel.send("nique");
+    }
+    if(message.content === "gravy") {
+        message.channel.send("Grand fou il est déjà couché à cette heure là!");
+    }
+    if(message.content === "apple") {
+        message.channel.send("Bah oé on à des codageurs notepad ++ ici");
+    }
+    if(message.content === "fabien") {
+        message.channel.send("Askip c'est un crack JS ^_^");
+    }
+    if(message.content === "axel") {
+        message.channel.send("Il lui manque 10g donc il doit changer sa sensi...");
+    }
+    if(message.content === "cameron") {
+        message.channel.send("aka l'arabe car il à volé 10g à Axelle");
+    }
+    if(message.content === "mathurin") {
+        message.channel.send("Bah il est mort quoi");
+    }
+
+});
+
+
+//On instencie de bot
 client.login(process.env.TOKEN);

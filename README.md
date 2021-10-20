@@ -75,7 +75,10 @@ Voici la liste des commandes disponibles:
 | Commande | arguments |
 | ------ | ------ |
 | logs | NONE |
+| steam | "IDSTEAM" |
+| steam | "IDSTEAM" "NomDuJeu" |
 | steam | "IDSTEAM" Summary |
+| friends| "IDSTEAM"|
 | friends| "IDSTEAM" (next)|
 | blague | NONE |
 

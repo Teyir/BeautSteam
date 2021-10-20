@@ -69,7 +69,7 @@ client.on("message", (message) => {
         message.channel.send("Il lui manque 10g donc il doit changer sa sensi...");
     }
     if(message.content === "cameron") {
-        message.channel.send("aka l'arabe car il à volé 10g à Axelle");
+        message.channel.send("aka la gentille personne car il à volé 10g à Axelle");
     }
     if(message.content === "mathurin") {
         message.channel.send("Bah il est mort quoi");

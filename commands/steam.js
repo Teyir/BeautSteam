@@ -19,7 +19,6 @@ reqidCommande = module.filename.slice(__filename.lastIndexOf(path.sep)+1, module
 //Run AXE-BOT by Axel Baudoin
 
 exports.run = (client,message, args) => {
-
     //Log, get client id
     reqidClient = message.author.id;
 
@@ -45,7 +44,7 @@ exports.run = (client,message, args) => {
         //Puis on analyse sa valeur afin de retourner la bonne information.
 
         //Affichage Jeu le plus récent.
-        if (names2 === 'Recent') {
+        if (names2 === 'recent') {
             const recentgamename = RecentGameInfo[0].name;
             const recentgameplaytime = RecentGameInfo[0].playTime / 60;
             const recentgameplaytime2 = RecentGameInfo[0].playTime2 / 60;
@@ -76,7 +75,7 @@ exports.run = (client,message, args) => {
         }
 
 //Affichage Profile d'un Joueur
-        else if (names2 === "Summary")  {
+        else if (names2 === "profil" || "profile")  {
             //Affectation des variables via Les retour de l'API steam.
             const UserInfoId = summaryUse.steamID;
             const UserInfoName = names;
@@ -176,6 +175,7 @@ exports.run = (client,message, args) => {
             }
         }
     });
+
 }
 
 /*if (names==='help') {

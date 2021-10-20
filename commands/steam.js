@@ -75,7 +75,7 @@ exports.run = (client,message, args) => {
         }
 
 //Affichage Profile d'un Joueur
-        else if (names2 === "profil" || "profile")  {
+        else if (names2 === "profil" || names2 === "profile")  {
             //Affectation des variables via Les retour de l'API steam.
             const UserInfoId = summaryUse.steamID;
             const UserInfoName = names;

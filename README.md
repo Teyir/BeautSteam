@@ -76,7 +76,6 @@ Voici la liste des commandes disponibles:
 | ------ | ------ |
 | help | NONE |
 | logs | NONE |
-| steam | "IDSTEAM" |
 | steam | "IDSTEAM" "NomDuJeu" |
 | steam | "IDSTEAM" Summary |
 | steam | "IDSTEAM" Recent |

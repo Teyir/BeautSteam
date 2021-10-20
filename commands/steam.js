@@ -4,7 +4,8 @@ const {replaceResultTransformer} = require("common-tags");
 
 const {Embed} = require("@discordjs/builders");
 //necessaire pour utiliser L'API steam.
-const steam = new SteamAPI('9740ADC804221A3DAC5A638868BD945A');
+const key = process.env.STEAMAPI;
+const steam = new SteamAPI(key);
 
 const inspect = json => console.dir(json, { depth: null }); //Inspecter le retour des valeurs des élements de L'API utilisées.
 

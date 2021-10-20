@@ -8,9 +8,8 @@ exports.run = (client,message,args) => {
         },
         fields: [
             {
-
                 name: "Commande pour afficher les Informations d'un joueur : ",
-                value: '``?steam [Pseudo]``',
+                value: '``?steam [Pseudo] Summary``',
             },
             {
 

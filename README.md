@@ -77,8 +77,8 @@ Voici la liste des commandes disponibles:
 | help | NONE |
 | logs | NONE |
 | steam | "IDSTEAM" "NomDuJeu" |
-| steam | "IDSTEAM" Summary |
-| steam | "IDSTEAM" Recent |
+| steam | "IDSTEAM" profile/profil |
+| steam | "IDSTEAM" recent |
 | friends| "IDSTEAM"|
 | friends| "IDSTEAM" (next)|
 | blague | NONE |

@@ -74,6 +74,7 @@ COMMIT;
 Voici la liste des commandes disponibles:
 | Commande | arguments |
 | ------ | ------ |
+| help | NONE |
 | logs | NONE |
 | steam | "IDSTEAM" |
 | steam | "IDSTEAM" "NomDuJeu" |

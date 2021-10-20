@@ -79,6 +79,7 @@ Voici la liste des commandes disponibles:
 | steam | "IDSTEAM" |
 | steam | "IDSTEAM" "NomDuJeu" |
 | steam | "IDSTEAM" Summary |
+| steam | "IDSTEAM" Recent |
 | friends| "IDSTEAM"|
 | friends| "IDSTEAM" (next)|
 | blague | NONE |
